@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application de Planning</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Application de Planning</h1>
+        <div class="task-input">
+            <input type="text" id="taskInput" placeholder="Entrez votre tâche ici...">
+            <button onclick="addTask()">Ajouter Tâche</button>
+        </div>
+        <div id="taskList" class="task-list">
+            <!-- Les tâches actives s'afficheront ici -->
+        </div>
+        <h2>Liste d'attente</h2>
+        <div id="waitingList" class="task-list">
+            <!-- Les tâches en attente s'afficheront ici -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
